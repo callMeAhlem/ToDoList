@@ -1,12 +1,12 @@
-import React from 'react'
-
-const TasksList = ({x}) => {
+import React,{useState} from 'react'
+import './TasksList.css';
+const TasksList = ({item}) => {
+  const [done, setDone] = useState({done:false});
   return (
-    <div>
-<div><label><input type="checkbox"/><h4>{x.name}</h4><p>{x.description}</p>
-</label>
+    <div >
+<div className='taskItem'>
+<input type="checkbox" onChange={e=>(setDone({done:e.target.checked}))}/><h4 style={{color:done.done?"#3b71ca":"black"}}>{item.description }</h4>
 </div>
-
     </div>
   )
 }

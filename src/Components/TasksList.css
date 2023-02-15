@@ -1,0 +1,9 @@
+.taskItem{
+    display: flex;
+    gap: 10px;
+    margin: 0 100px;
+}
+.taskItem h4{
+font-weight: normal;
+color: black;
+}
