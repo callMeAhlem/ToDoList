@@ -8,7 +8,7 @@ import NotePad from './img/checklist.gif'
 import Filter from './Components/Filter';
 
 function App() {
-  const [tasks,setTask]=useState([{description:"GYM at 5 pm ",done:false},{description:"Lunch with MOM ",done:true},{description:"Urgent Meeting with Paul at 2 pm ",done:false},{description:"Buy Next week grosseries",done:false}])
+  const [tasks,setTask]=useState([{description:"GYM at 5 pm ",done:false},{description:"Lunch with MOM ",done:true},{description:"Urgent Meeting with Paul at 2 pm ",done:false},{description:"Buy Next week grosseries",done:true}])
   const addNew=(x)=>{setTask([x,...tasks])}
  const [Search, setSearch] = useState("");
  const clearTasks=()=>{
