@@ -1,9 +1,24 @@
 .taskItem{
     display: flex;
     gap: 10px;
-    margin: 0 100px;
+    margin: 0 70px;
 }
 .taskItem h4{
 font-weight: normal;
 color: black;
 }
+.taskItem button {
+    margin-top: 18px;
+    margin-left: 10px;
+    height: 25px;
+}
+.updateItem button {
+    margin-top: 18px;
+    margin-left: 10px;
+    height: 25px;
+}
+/* .updateItem {
+    border: solid red 2px;
+    height: 100px;
+    
+} */
